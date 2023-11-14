@@ -31,10 +31,12 @@ Docs - The document folder contains any data dictionary type documentation we ha
 |	tbl_person_efi	|	Data	|	The Currently calculated EFI for all individuals	|
 |	tbl_person_lsoa	|	GEO	|	Links Person  data to current LSOA , where known	|
 |	tbl_ward_boundaries	|	GEO	|	Shapefile data for Wards	|
+| cb_DailyAverage_AirQuality_4Yrs | Data | Daily Air quality across Bradford District , see docs for details. |
+
 
 
 Docs
-Deaths+DSCRO+Spec.xlsx - describes the Death Data that is available. 
+Contains: Deaths+DSCRO+Spec.xlsx - data dictionary for the Death Data (available upon request) 
 
 
 
