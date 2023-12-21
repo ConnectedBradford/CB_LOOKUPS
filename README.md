@@ -14,9 +14,9 @@ CodeLists - These are lists of codes associated with a specific condition
 
 Docs - The document folder contains any data dictionary type documentation we have on these and any other datasets that are not specifically contained within a FDM.
 
-|table_name	|	Type	|	Desc	|
-|-----------|-------|-------|
-|	lookup_pseudonymised_uprn_lsoa	|	GEO	|	includes pseudonymised UPRN (Unique Property Number) and its associated lsao	|
+|table_name	|	Type	|	Desc	|  Clinically Assured |
+|-----------|-------|-------|---------------------|
+|	lookup_pseudonymised_uprn_lsoa	|	GEO	|	includes pseudonymised UPRN (Unique Property Number) and its associated lsao	| 
 |	tbl_AE_CodeToSnomed_lookup	|	Code	|	The snomed code that each ICD10 A&E code links to	|
 |	tbl_BNF_DMD_SNOMED_lkp	|	Code	|	British National Formulary and its snomed code	|
 |	tbl_CTV3Codes_Lookup	|	Code	|	List of CTV3 Codes and Description	|
@@ -37,7 +37,8 @@ Docs - The document folder contains any data dictionary type documentation we ha
 |	tbl_person_lsoa	|	GEO	|	Links Person  data to current LSOA , where known	|
 |	tbl_ward_boundaries	|	GEO	|	Shapefile data for Wards	|
 | cb_DailyAverage_AirQuality_4Yrs | Data | Daily Air quality across Bradford District , see docs for details. |
-| tbl_CodeList_MultipleSclerosis |CodeList | CTV3 codes associated with multiple sclerosis, see https://datacompass.lshtm.ac.uk/id/eprint/2600/ for provenance |
+| tbl_CodeList_MultipleSclerosis |CodeList | CTV3 codes associated with multiple sclerosis, see https://datacompass.lshtm.ac.uk/id/eprint/2600/ for provenance | Not Clinically Assured |
+
 
 
 
