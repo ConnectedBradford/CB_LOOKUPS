@@ -1,11 +1,16 @@
 ## CB_LOOKUPS
-# Describes the contents of the cb_lookups folder
+# A collection of data tables to support cohort creation/analysis of Connected Bradford Data.
+
+Where possible the source of the data is referenced and links provided. In most cases these lists are open source or produced internally.
+The list below is a summary of the available data - by type 
 
 GEO - is geographical data
 
 Code - coded, ctv3, snomed etc
 
 Data - useful data for projects
+
+CodeLists - These are lists of codes associated with a specific condition
 
 Docs - The document folder contains any data dictionary type documentation we have on these and any other datasets that are not specifically contained within a FDM.
 
@@ -14,7 +19,7 @@ Docs - The document folder contains any data dictionary type documentation we ha
 |	lookup_pseudonymised_uprn_lsoa	|	GEO	|	includes pseudonymised UPRN (Unique Property Number) and its associated lsao	|
 |	tbl_AE_CodeToSnomed_lookup	|	Code	|	The snomed code that each ICD10 A&E code links to	|
 |	tbl_BNF_DMD_SNOMED_lkp	|	Code	|	British National Formulary and its snomed code	|
-|	tbl_CTV3Codes_Lookup	|	Code	|	List of CTV3 Codes and Descrioption	|
+|	tbl_CTV3Codes_Lookup	|	Code	|	List of CTV3 Codes and Description	|
 |	tbl_CTV3ToSnomed_Map	|	Code	|	CTV3 code and the linked snomed code	|
 |	tbl_CTV3ToSnomed_Map_2	|	Code	|	As above but updated with new entries	|
 |	tbl_EFI2_Codelist	|	Code	|	CTV3 Codes  that form the Electronic Frailty index, with the deficits included	|
@@ -32,6 +37,7 @@ Docs - The document folder contains any data dictionary type documentation we ha
 |	tbl_person_lsoa	|	GEO	|	Links Person  data to current LSOA , where known	|
 |	tbl_ward_boundaries	|	GEO	|	Shapefile data for Wards	|
 | cb_DailyAverage_AirQuality_4Yrs | Data | Daily Air quality across Bradford District , see docs for details. |
+| tbl_CodeList_MultipleSclerosis |CodeList | CTV3 codes associated with multiple sclerosis, see https://datacompass.lshtm.ac.uk/id/eprint/2600/ for provenance |
 
 
 
