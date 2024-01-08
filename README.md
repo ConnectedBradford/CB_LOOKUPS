@@ -38,6 +38,7 @@ Docs - The document folder contains any data dictionary type documentation we ha
 |	tbl_ward_boundaries	|	GEO	|	Shapefile data for Wards	|
 | cb_DailyAverage_AirQuality_4Yrs | Data | Daily Air quality across Bradford District , see docs for details. |
 | tbl_CodeList_MultipleSclerosis |CodeList | CTV3 codes associated with multiple sclerosis, see https://datacompass.lshtm.ac.uk/id/eprint/2600/ for provenance | Not Clinically Assured |
+| lkp_SensitiveCodes | CodeList | CTV codes associated with sensitive data - these are NOT included in Connected Bradford Data | Not Clinically Assured | 
 
 
 
